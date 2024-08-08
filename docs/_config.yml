@@ -19,7 +19,7 @@ defaults:
       layout: "default"
 
 domain: terxor.github.io
-url: https://terxor.github.io
+url: https://terxor.github.io/xv3blog
 
 markdown: kramdown
 kramdown:
