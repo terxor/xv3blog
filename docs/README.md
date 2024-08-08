@@ -7,7 +7,9 @@ The website contains the following pages:
 ## Base changes
 
 - See `team_label` under `_data/vars.yml`. This appears in the navbar and few other places.
-- See `domain` and `url` under `_config.yml`
+- See `baseurl` and `url` under `_config.yml`
+
+> Note: for local render, set `baseurl` to `""`
 
 ## Authors
 
