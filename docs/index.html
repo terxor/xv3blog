@@ -20,7 +20,7 @@ layout: default
         <div class="card-body">
           <h5 class="card-title">{{ post.title }}</h5>
           <p class="card-text">By <strong>{{ post.author }}</strong></p>
-          <a href="{{ post.url }}" class="btn btn-outline-dark">Read</a>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-outline-dark">Read</a>
         </div>
         <div class="card-footer">
           <em>{{ site.data.categories[post.category].name }}</em>

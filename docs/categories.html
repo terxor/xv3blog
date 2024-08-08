@@ -13,7 +13,7 @@ title: Categories
     <div class="mt-4">
       <h4>{{ category.name }}</h4>
       <div>{{ category.desc }}</div>
-      <div> <a href="/categories/{{ category_id }}">Posts</a> </div>
+      <div> <a href="{{ site.baseurl }}/categories/{{ category_id }}">Posts</a> </div>
     </div>
     {% endif %}
   {% endfor %}

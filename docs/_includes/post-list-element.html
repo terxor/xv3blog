@@ -8,6 +8,6 @@
   {% assign topic = site.topics | find: "topic_id", post.topic %}
   <div class="post-element-category text-muted">in {{ site.data.categories[post.category].name }}</div>
   <div class="post-element-link">
-    <a href="{{ post.url }}">Read</a>
+    <a href="{{ site.baseurl }}{{ post.url }}">Read</a>
   </div>
 </div>
