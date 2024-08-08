@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="text-center">
+  <img class="img-thumbnail author-pic" src="/assets/images/{{ page.alias }}.jpg" alt="">
+  <h2>{{ page.alias }}</h2>
+  <div class="lead">{{ page.name }}</div>
+  <div class="mt-5">
+  {{ content | markdownify }}
+  </div>
+</div>
+<hr/>
+
+
+<h2>Posts</h2>
+<div>
+  {% assign filtered_posts = site.posts | where: 'author', page.alias %}
+  {% for post in filtered_posts %}
+    {% include post-list-element.html %}
+  {% endfor %}
+</div>

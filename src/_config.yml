@@ -1,0 +1,28 @@
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+domain: terxor.github.io
+url: https://terxor.github.io
+
+markdown: kramdown
+kramdown:
+  math-engine: katex
+  input: GFM
+  syntax_highlighter: rouge
