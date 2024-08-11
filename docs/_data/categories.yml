@@ -1,0 +1,5 @@
+# Add categories here as keys
+
+misc:
+  name: "Miscellaneous"
+  desc: "Posts that do not fall into other categories"

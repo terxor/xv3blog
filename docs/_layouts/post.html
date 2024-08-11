@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="display-6">{{ page.title }}</div>
+<div>
+  by 
+  <strong>{{ page.author }}</strong>
+  on {{ page.date | date_to_string }}
+</div>
+<p class="text-muted">
+<small>{{ site.data.categories[page.category].name }}</small>
+</p>
+<hr/>
+<div class="post-content">
+{{ content }}
+</div>

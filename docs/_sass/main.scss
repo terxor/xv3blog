@@ -1,0 +1,62 @@
+$footer-height: 60px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: $footer-height;
+}
+
+footer {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  line-height: $footer-height;
+  background-color: #212529;
+}
+
+#page-content {
+  padding-bottom: $footer-height;
+}
+
+.author-pic {
+  height: 200px;
+  width: 200px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #95ccf1;
+  padding: 5px;
+  padding-top: 18px;
+  padding-left: 15px;
+}
+
+div > pre.highlight {
+  border-left: 5px solid #ccc;
+  padding-left: 5px;
+}
+
+div.post-content img {
+  max-width:100%;
+  height: auto;
+}
+
+div.post-content table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  th {
+    border-bottom: 2px solid rgba(0,0,0,0.25);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  td {
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
